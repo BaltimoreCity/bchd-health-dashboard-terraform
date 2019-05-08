@@ -1,0 +1,12 @@
+- hosts: all
+
+  vars:
+    mongodb_authorization: disabled
+
+  roles:
+    - geerlingguy.git
+    - geerlingguy.nginx
+    - geerlingguy.postgresql
+    - geerlingguy.nodejs
+    - geerlingguy.docker
+    - bbatsche.MongoDB-Install        
